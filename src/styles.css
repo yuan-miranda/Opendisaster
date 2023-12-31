@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header_container {
+  background-color: #181818;
+  color: white;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.header h1 {
+  margin: 0px;
+  padding: 15px 10px 15px 20px;
+}
+.header img {
+  margin-left: auto;
+  margin-right: 20px;
+  width: 35px;
+}
+
+.wrapper {
+  display: flex;
+  height: calc(100vh - 67px);
+  flex-direction: row;
+}
+
+.sidebar {
+  flex: 0 0 230px;
+  background-color: #181818;
+  color: #9D9D9D;
+  padding: 10px;
+}
+.sidebar p {
+  transition: margin-left 0.25s ease-in-out;
+  font-size: 30px;
+  padding: 0;
+  position: absolute;
+  top: 50vh;
+  margin-left: 230px;
+}
+.sidebar p:hover {
+  color: #d2d2d2;
+  font-weight: bolder;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 20px;
+}
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: #d2d2d2;
+  font-weight: bolder;
+}
+
+
+.content_container {
+  transition: margin-left 0.25s ease-in-out;
+  flex: 1;
+  overflow: auto;
+  background-color: #1F1F1F;
+  color: white;
+  padding: 10px;
+}
+
+.content {
+  padding-left: 20px;
+}
+
+
+/* adjust main content div's margin when sidebar is showing*/
+.sidebar.active + .content_container {
+  transition: margin-left 0.25s ease-in-out;
+  margin-left: -230px; 
+}
+
+.sidebar.active > p {
+  transition: margin-left 0.25s ease-in-out;
+  margin-left: 0px;
+  
+}
