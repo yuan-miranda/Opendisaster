@@ -12,8 +12,7 @@
 .about_header hr {
   border: none;
   height: 4px;
-  color: #333; /* background color */
-  background-color: #333; /* same as border color */
+  background-color: #303030;
 }
 
 .about_header h4 {
