@@ -1,0 +1,48 @@
+
+/* content starts right here */
+.content {
+  padding: 30px;
+}
+
+.about_header h1 {
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+.about_header hr {
+  border: none;
+  height: 4px;
+  color: #333; /* background color */
+  background-color: #333; /* same as border color */
+}
+
+.about_header h4 {
+  padding-top: 10px;
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+
+.description_container {
+  padding: 10px;
+}
+
+.content ul {
+  padding-top: 30px;
+  font-size: 15px;
+  list-style: none;
+}
+
+.content ul li {
+  padding-bottom: 10px;
+}
+
+.content ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.content ul li a:hover {
+  text-decoration: none;
+  color: #d2d2d2;
+  font-weight: bolder;
+}
