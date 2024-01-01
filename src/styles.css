@@ -27,16 +27,16 @@ body {
   margin-left: auto;
 }
 
-.header a svg {
+.header a i {
   margin-right: 20px;
-  width: 40px;
-  /* filter: invert(100%); */
+  font-size: 40px;
+  color: #5F5F5F;
 }
 
 /* github logo */
-.header a svg path { 
+/* .header a svg path { 
   fill:#5F5F5F;
-}
+} */
 
 .wrapper {
   display: flex;
