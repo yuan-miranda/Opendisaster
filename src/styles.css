@@ -33,11 +33,6 @@ body {
   color: #5F5F5F;
 }
 
-/* github logo */
-/* .header a svg path { 
-  fill:#5F5F5F;
-} */
-
 .wrapper {
   display: flex;
   height: calc(100vh - 67px);
