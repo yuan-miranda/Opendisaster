@@ -111,6 +111,10 @@ body {
   padding-bottom: 25px;
 }
 
+.description_container {
+  padding: 10px;
+}
+
 .content ul {
   padding-top: 30px;
   font-size: 15px;
