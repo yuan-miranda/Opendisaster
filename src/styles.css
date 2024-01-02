@@ -62,23 +62,22 @@ body {
 }
 
 .sidebar ul {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
   list-style: none;
-  padding: 20px;
 }
 
 .sidebar ul li {
-  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
 }
 
 .sidebar ul li a {
+  padding-left: 10px;
   text-decoration: none;
   color: inherit;
-}
-
-.sidebar ul li a:hover {
-  text-decoration: none;
-  color: #DDDDDD;
-  font-weight: bolder;
 }
 
 .sidebar .nav {
@@ -122,4 +121,9 @@ body {
   color: black;
   background-color: white;
   margin-top: auto; /* Moves the license to the bottom */
+}
+
+.highlighted {
+  background-color:#CACACA;
+  color: black;
 }
