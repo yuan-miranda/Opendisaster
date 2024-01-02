@@ -4,25 +4,25 @@
   padding: 30px;
 }
 
-.about_header h1 {
+.about h1 {
   font-size: 50px;
   padding-bottom: 10px;
 }
 
-.about_header hr {
+.about hr {
   border: none;
   height: 4px;
   background-color: #303030;
 }
 
-.about_header h4 {
+.about h4 {
   padding-top: 10px;
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 25px;
 }
 
-.description_container {
-  padding: 10px;
+.description {
+  padding: 5px;
 }
 
 .content ul {
@@ -44,4 +44,26 @@
   text-decoration: none;
   color: #d2d2d2;
   font-weight: bolder;
+}
+
+.content .description h3 {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.content .description p {
+  margin-left: 30px;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.content .members_list p {
+  font-size: 20px;
+}
+
+.content .members_list ul {
+  padding-top: 10px;
+}
+.content .members_list ul li a {
+  font-size: 20px;
 }

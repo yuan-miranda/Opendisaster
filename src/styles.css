@@ -81,7 +81,13 @@ body {
   font-weight: bolder;
 }
 
+.sidebar .nav {
+  font-size: 20px;
+}
+
 .content_container {
+  display: flex;
+  flex-direction: column;
   transition: margin-left 0.25s ease-in-out;
   flex: 1;
   overflow: auto;
@@ -105,4 +111,15 @@ body {
 .sidebar.active > .toggle_button {
   transition: margin-left 0.25s ease-in-out;
   margin-left: 0px;
+}
+
+/* For Webkit browsers like Chrome, Safari, and Microsoft Edge */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.license {
+  color: black;
+  background-color: white;
+  margin-top: auto; /* Moves the license to the bottom */
 }
