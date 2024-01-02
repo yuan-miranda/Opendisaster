@@ -15,3 +15,4 @@ window.onload = function() {
       document.getElementById(initialHighlightedElement).classList.add('highlighted');
   }
 }
+
