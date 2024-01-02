@@ -32,11 +32,6 @@ body {
   font-size: 40px;
   color: #5F5F5F;
 }
-.header a i:hover {
-  margin-right: 20px;
-  font-size: 40px;
-  color: #888888;
-}
 
 .header a i:hover {
   margin-right: 20px;
@@ -110,7 +105,6 @@ body {
 /* content starts right here */
 .content {
   padding: 30px 60px 30px 60px;
-  height: 100%;
 }
 
 /* adjust main content div's position when sidebar is showing */
@@ -144,9 +138,4 @@ body {
 .nav ul a:hover {
   background-color: #CACACA;
   color: #000000;
-}
-
-.map {
-  height: 100%;
-  width: 100%;
 }
