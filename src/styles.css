@@ -70,10 +70,10 @@ body {
 
 .nav ul a {
   text-decoration: none;
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 10px;
+  color: #FFFFFF;
+  padding: 10px 0 10px 0;
+  border-radius: 5px;
+  margin: 5px 0 0 0;
 }
 
 .nav ul a li {
@@ -119,12 +119,17 @@ body {
 }
 
 .license {
-  color: black;
-  background-color: white;
-  margin-top: auto; /* Moves the license to the bottom */
+  color: #FFFFFF;
+  margin-top: auto;
+  text-align: center;
 }
 
 .nav ul a.highlighted {
   background-color:#CACACA;
-  color: black;
+  color: #000000;
+}
+
+.nav ul a:hover {
+  background-color: #CACACA;
+  color: #000000;
 }
