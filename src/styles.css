@@ -33,6 +33,12 @@ body {
   color: #5F5F5F;
 }
 
+.header a i:hover {
+  margin-right: 20px;
+  font-size: 40px;
+  color: #888888;
+}
+
 .wrapper {
   display: flex;
   height: calc(100vh - 67px);
