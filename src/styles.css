@@ -140,3 +140,8 @@ body {
   background-color: #CACACA;
   color: #000000;
 }
+
+.map {
+  width: 100%;
+  height: 100%;
+}
