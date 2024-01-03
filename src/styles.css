@@ -53,7 +53,7 @@ body {
 }
 
 .toggle_button {
-  transition: margin-left 0.25s ease-in-out;
+  transition: margin-left 200ms ease-in-out;
   font-size: 30px;
   padding: 0;
   position: absolute;
@@ -94,7 +94,7 @@ body {
 .content_container {
   display: flex;
   flex-direction: column;
-  transition: margin-left 0.25s ease-in-out;
+  transition: margin-left 200ms ease-in-out;
   flex: 1;
   overflow: auto;
   background-color: #262626;
@@ -110,13 +110,13 @@ body {
 
 /* adjust main content div's position when sidebar is showing */
 .sidebar.active + .content_container {
-  transition: margin-left 0.25s ease-in-out;
+  transition: margin-left 200ms ease-in-out;
   margin-left: -230px; 
 }
 
 /* adjust the toggle button's position when sidebar is showing */
 .sidebar.active > .toggle_button {
-  transition: margin-left 0.25s ease-in-out;
+  transition: margin-left 200ms ease-in-out;
   margin-left: 0px;
 }
 
