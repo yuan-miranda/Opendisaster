@@ -104,31 +104,28 @@ body {
 
 /* content starts right here */
 .content {
-  padding: 30px 60px 30px 60px;
+  padding: 20px 20px 20px 25px;
   flex: 1;
 }
 
-/* adjust main content div's position when sidebar is showing */
 .sidebar.active + .content_container {
   transition: margin-left 0.25s ease-in-out;
   margin-left: -230px; 
 }
 
-/* adjust the toggle button's position when sidebar is showing */
 .sidebar.active > .toggle_button {
   transition: margin-left 0.25s ease-in-out;
   margin-left: 0px;
 }
 
-/* For Webkit browsers like Chrome, Safari, and Microsoft Edge */
 ::-webkit-scrollbar {
   width: 0px;
 }
 
 .license {
-  color: #FFFFFF;
+  background-color: white;
+  color: black;
   margin-top: auto;
-  text-align: center;
 }
 
 .nav ul a.highlighted {
