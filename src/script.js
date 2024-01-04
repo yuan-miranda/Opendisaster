@@ -18,7 +18,6 @@ window.onload = function() {
 
 window.addEventListener('resize', () => {
   const sidebar = document.querySelector('.sidebar');
-
   if (window.devicePixelRatio >= 1.75) {
     sidebar.classList.add('active');
   } else {
