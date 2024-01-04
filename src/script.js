@@ -15,3 +15,13 @@ window.onload = function() {
       document.getElementById(initialHighlightedElement).classList.add('highlighted');
   }
 }
+
+window.addEventListener('resize', () => {
+  const sidebar = document.querySelector('.sidebar');
+
+  if (window.devicePixelRatio >= 1.75) {
+    sidebar.classList.add('active');
+  } else {
+    sidebar.classList.remove('active');
+  }
+});
