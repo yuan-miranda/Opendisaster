@@ -11,4 +11,5 @@ Members:
 [Mary Ann Evangelista](https://www.facebook.com/maryann.evangelista.9887),
 [Sean Kobe Penarubia](https://www.facebook.com/seankobe.penarubia),
 [Sepllarian Pascual](https://www.facebook.com/profile.php?id=100091130383037),
+[Rye Westlee Mangune](https://www.facebook.com/rye.westlee.1?mibextid=2JQ9oc),
 [Yuan Miranda](https://www.facebook.com/yuanezekielamirandaa).
