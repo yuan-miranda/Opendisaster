@@ -1,16 +1,16 @@
 .about h1 {
   font-size: 50px;
-  padding-bottom: 10px;
 }
 
 .about hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
   border: none;
   height: 4px;
   background-color: #303030;
 }
 
 .about h4 {
-  padding-top: 10px;
   font-size: 20px;
   padding-bottom: 25px;
 }
