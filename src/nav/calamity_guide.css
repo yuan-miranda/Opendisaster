@@ -1,9 +1,15 @@
 .content_container {
-
+    align-items: center;
 }
 
-.content_container .content {
+/* .content_container .content {
 
+} */
+
+.content h1 {
+    font-size: 40px;
+    padding: 10px;
+    font-weight: bold;
 }
 
 .content .image_header {
@@ -11,20 +17,24 @@
     flex-direction: row;
 }
 
-.image_header .image {
+/* .image_header .image {
 
-}
+} */
 
 .image_header .image img {
-    width: 1400px;
-    height: 780px;
-
+    width: 100%;
+    height: 100%;
 }
 
 .image_header .contact_details {
-
+    margin-left: 10px;
+    width: 300px;
+    min-width: 300px;
+    background-color: white;
+    border-radius: 10px;
 }
 
-.image_header .description {
-
+.content .description {
+    font-size: 25px;
+    padding: 10px 10px 100px 10px;
 }
