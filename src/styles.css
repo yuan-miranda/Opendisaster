@@ -132,6 +132,11 @@ body {
   margin-top: auto;
 }
 
+.nav ul a.highlighted {
+  background-color:#CACACA;
+  color: #000000;
+}
+
 .nav ul a:hover {
   background-color: #CACACA;
   color: #000000;
