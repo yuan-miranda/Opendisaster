@@ -1,23 +1,30 @@
-.content img {
-    width: 100%;
-    max-width: 1500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.content_container {
+
 }
 
-.content h1{
-    font-size: 50px;
+.content_container .content {
+
 }
 
-.content hr {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: none;
-    height: 4px;
-    background-color: #303030;
+.content .image_header {
+    display: flex;
+    flex-direction: row;
 }
 
-.content h2 {
-    font-size: 20px;
+.image_header .image {
+
+}
+
+.image_header .image img {
+    width: 1400px;
+    height: 780px;
+
+}
+
+.image_header .contact_details {
+
+}
+
+.image_header .description {
+
 }

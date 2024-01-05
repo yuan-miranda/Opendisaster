@@ -1,5 +1,5 @@
 .about h1 {
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .about hr {
@@ -41,7 +41,7 @@
 }
 
 .content .description h3 {
-  font-size: 25px;
+  font-size: 40px;
   padding-bottom: 10px;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .content .members_list p {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .content .members_list ul {
