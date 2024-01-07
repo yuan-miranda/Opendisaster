@@ -7,7 +7,7 @@
 } */
 
 .content h1 {
-    font-size: 40px;
+    font-size: 70px;
     padding: 10px;
     font-weight: bold;
 }
@@ -17,9 +17,10 @@
     flex-direction: row;
 }
 
-/* .image_header .image {
+.image_header .image {
+    height: 700px;
 
-} */
+}
 
 .image_header .image img {
     width: 100%;
@@ -37,4 +38,29 @@
 .content .description {
     font-size: 25px;
     padding: 10px 10px 100px 10px;
+}
+
+.description section h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+
+}
+
+.description section ol {
+    margin-left: 50px;
+}
+
+.description section ol li {
+    margin-bottom: 5px;
+}
+
+.description section ol li h3 {
+    margin: 25px 0px 25px 0px;
+    margin-left: 10px;
+}
+
+.description section ol li ul li {
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-left: 50px;
 }
