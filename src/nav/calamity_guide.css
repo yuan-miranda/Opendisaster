@@ -15,29 +15,37 @@
 .content .image_header {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .image_header .image {
-    width: calc(100% - 500px);
-    height: 20%;
-}
-
-.image_header .image img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
 }
 
-.image_header .contact_details {
+.image_header .image img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover; /* or 'contain' if you want to see the whole image */
+}
+
+.contact_details {
     margin-left: 10px;
-    width: 500px;
+    width: 100%;
     min-width: 300px;
-    background-color: white;
+    border: 2px solid white;
     border-radius: 10px;
+    color: white;
+    margin-bottom: 100px;
+    padding: 10px;
 }
 
 .content .description {
     font-size: 25px;
-    padding: 10px 10px 100px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .description section h1 {

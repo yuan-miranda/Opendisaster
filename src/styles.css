@@ -122,10 +122,6 @@ body {
   margin-left: 0px;
 }
 
-::-webkit-scrollbar {
-  width: 0px;
-}
-
 .license {
   background-color: white;
   color: black;
